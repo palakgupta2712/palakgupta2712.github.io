@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Heading from "./components/Heading";
 import Introduction from "./components/Introduction";
+import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Heading />
       <Introduction />
       <SocialLinks />
+      <Skills />
     </div>
   );
 }

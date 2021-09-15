@@ -1,7 +1,12 @@
 import React, { useState } from "react";
+import Heading from "./components/Heading";
 
 function App() {
-  return <h1>PORTFOLIO</h1>;
+  return (
+    <div>
+      <Heading />
+    </div>
+  );
 }
 
 export default App;

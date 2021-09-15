@@ -9,6 +9,7 @@ function Introduction() {
 export default Introduction;
 
 const Intro = styled.p`
+  padding: 1rem 0;
   font-size: 2.5rem;
   @media (max-width: 480px) {
     font-size: 1.5rem;

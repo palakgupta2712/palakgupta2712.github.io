@@ -30,7 +30,7 @@ function Skills() {
               style={{ marginRight: "10px" }}
             />
           </TitleContainer>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
             {data.skills.tools.map((item) => (
               <Tag> {item} </Tag>
             ))}
@@ -55,9 +55,10 @@ const Container = styled.div`
 
 const Tag = styled.p`
   /* font-size: 10px; */
-  border: 1px solid #d53369;
+  border: 1px solid #333;
+  /* background-color: #333; */
   padding: 2px 10px;
   margin: 10px 10px;
   border-radius: 5px;
-  color: #d53369;
+  /* color: #d53369; */
 `;

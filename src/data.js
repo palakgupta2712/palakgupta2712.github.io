@@ -1,5 +1,6 @@
 const data = {
   name: "Palak Gupta",
+  bio: "A front-end software developer with a passion for design who enjoys designing visually appealing interfaces and experiences.",
   links: [
     {
       name: "email",

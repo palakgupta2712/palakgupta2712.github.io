@@ -9,9 +9,11 @@ function Heading() {
 export default Heading;
 
 const Title = styled.h1`
-  font-size: 3.5rem;
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media (max-width: 480px) {
+    font-size: 2.5rem;
+  }
 `;

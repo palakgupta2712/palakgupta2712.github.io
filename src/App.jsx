@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Heading from "./components/Heading";
 import Introduction from "./components/Introduction";
-import Skills from "./components/Skills";
+import Skills from "./pages/Skills";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {

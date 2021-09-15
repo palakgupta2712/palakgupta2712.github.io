@@ -5,7 +5,9 @@ function SocialLinks() {
   return (
     <Container>
       {data.links.map((item) => (
-        <a href={item.url}> {item.name} | </a>
+        <a href={item.url} style={{ textDecoration: "none" }}>
+          {item.name} |{" "}
+        </a>
       ))}
     </Container>
   );

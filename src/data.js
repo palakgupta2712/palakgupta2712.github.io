@@ -19,5 +19,19 @@ const data = {
       url: "https://codepen.io/palakgupta27",
     },
   ],
+  skills: {
+    development: [
+      "HTML5",
+      "CSS3",
+      "JavaScript(ES6)",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Bootstrap CSS",
+      "Material-UI",
+      "styled-components",
+    ],
+    tools: ["Git", "Github", "Figma", "AWS", "AWS Amplify", "RESTful APIs"],
+  },
 };
 export default data;

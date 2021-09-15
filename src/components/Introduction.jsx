@@ -10,4 +10,7 @@ export default Introduction;
 
 const Intro = styled.p`
   font-size: 2.5rem;
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
 `;

@@ -97,5 +97,6 @@ const data = {
       tags: ["React.js", "styled-components"],
     },
   ],
+  resume: "resume/Palak_Gupta_resume.pdf",
 };
 export default data;

@@ -1,22 +1,15 @@
 import React from "react";
-import styled from "styled-components";
 import data from "../data";
 function SocialLinks() {
   return (
-    <Container>
+    <div>
       {data.links.map((item) => (
         <a href={item.url} style={{ textDecoration: "none" }}>
           {item.name} |{" "}
         </a>
       ))}
-    </Container>
+    </div>
   );
 }
 
 export default SocialLinks;
-const Container = styled.div`
-  background: linear-gradient(90deg, #d53369 0%, #daae51 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-`;

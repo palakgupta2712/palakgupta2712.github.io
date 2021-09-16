@@ -5,11 +5,19 @@ import Skills from "./pages/Skills";
 import SocialLinks from "./components/SocialLinks";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
     <div>
-      <div style={{ height: "90vh" }}>
+      <div
+        style={{
+          height: "90vh",
+          // display: "flex",
+          // alignItems: "center",
+          // flexDirection: "column",
+        }}
+      >
         <Heading />
         <Introduction />
         <SocialLinks />
@@ -17,6 +25,7 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
+      <Footer />
     </div>
   );
 }

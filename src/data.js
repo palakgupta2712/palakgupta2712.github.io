@@ -1,4 +1,6 @@
 const data = {
+  profile_picture_url:
+    "https://avatars.githubusercontent.com/u/61227144?s=400&u=c2fe0bca2ce3f1b8738161d055e506fefe0b89c8&v=4",
   name: "Palak Gupta",
   bio: "A front-end software developer with a passion for design who enjoys designing visually appealing interfaces and experiences.",
   links: [

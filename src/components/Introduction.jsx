@@ -11,6 +11,8 @@ export default Introduction;
 const Intro = styled.p`
   padding: 1rem 0;
   font-size: 2.5rem;
+  /* text-align: center; */
+
   @media (max-width: 480px) {
     font-size: 1.5rem;
   }

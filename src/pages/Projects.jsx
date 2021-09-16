@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Title from "../components/Title";
 import data from "../data";
-import { BiLinkExternal } from "react-icons/bi";
+// import { BiLinkExternal } from "react-icons/bi";
 function Projects() {
   return (
     <div>
@@ -10,21 +10,21 @@ function Projects() {
       <div>
         {data.projects.map((item) => (
           <Container>
-            <h3
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "10px",
-                justifyContent: "space-between",
-                margin: 0,
-              }}
-            >
+            <Header>
               {item.name}
               <div>
-                {item.live_url && <Link href={item.live_url}>Demo</Link>}
-                {item.repo_url && <Link href={item.repo_url}>Github</Link>}
+                {item.live_url && (
+                  <Link href={item.live_url} target="_blank">
+                    Demo
+                  </Link>
+                )}
+                {item.repo_url && (
+                  <Link href={item.repo_url} target="_blank">
+                    Github
+                  </Link>
+                )}
               </div>
-            </h3>
+            </Header>
             <p>{item.summary}</p>
             {item.tags.map((tag) => (
               <Tag> {tag} </Tag>
@@ -62,4 +62,16 @@ const Container = styled.div`
   margin: 15px 0;
   padding: 10px;
   border-radius: 5px;
+`;
+const Header = styled.h3`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: flex;
+
+  @media (min-width: 480px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;

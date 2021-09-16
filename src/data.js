@@ -56,8 +56,8 @@ const data = {
       name: "Tynts - A color tool",
       summary:
         "A web color tool that enables users to generate random colors, gradients, shades, and color harmonies.",
-      repo_url: "",
-      live_url: "",
+      repo_url: "https://github.com/palakgupta2712/tynts-color-tool",
+      live_url: "https://tynts.netlify.app/",
       tags: ["HTML5", "Materialize CSS", "JavaScript"],
     },
     {

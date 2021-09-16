@@ -69,5 +69,31 @@ const data = {
       tags: ["React.js", "styled-components"],
     },
   ],
+  archive_project: [
+    {
+      name: "Educouch - A learning management system",
+      summary:
+        "EduCouch is a management system intended for educational institution for managing their educational content. Serverless Application using AWS Amplify, React.js, GraphQL and Datastore.",
+      repo_url: "https://github.com/palakgupta2712/lms-app-amplify",
+      live_url: "https://edu-couch.netlify.app/",
+      tags: ["React.js", "Material-UI", "AWS Amplify"],
+    },
+    {
+      name: "Tynts - A color tool",
+      summary:
+        "A web color tool that enables users to generate random colors, gradients, shades, and color harmonies.",
+      repo_url: "https://github.com/palakgupta2712/tynts-color-tool",
+      live_url: "https://tynts.netlify.app/",
+      tags: ["HTML5", "Materialize CSS", "JavaScript"],
+    },
+    {
+      name: "Bored Games",
+      summary:
+        "A fun game project which includes tic-tac-toe, trivia quiz etc.",
+      repo_url: "https://github.com/palakgupta2712/bored-games/",
+      live_url: "https://bored-games-07.netlify.app/",
+      tags: ["React.js", "styled-components"],
+    },
+  ],
 };
 export default data;

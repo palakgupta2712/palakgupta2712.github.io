@@ -11,7 +11,9 @@ function Projects() {
         {data.projects.map((item) => (
           <Container>
             <Header>
-              {item.name}
+              <ProjectTitle href={item.repo_url} target="_blank">
+                {item.name}
+              </ProjectTitle>
               <div>
                 {item.live_url && (
                   <Link href={item.live_url} target="_blank">
@@ -62,8 +64,11 @@ const Container = styled.div`
   margin: 15px 0;
   padding: 10px;
   border-radius: 5px;
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
-const Header = styled.h3`
+const Header = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -74,4 +79,11 @@ const Header = styled.h3`
     align-items: center;
     justify-content: space-between;
   }
+`;
+
+const ProjectTitle = styled.a`
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 600;
 `;

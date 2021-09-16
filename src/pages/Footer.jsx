@@ -10,30 +10,36 @@ import styled from "styled-components";
 function Footer() {
   return (
     <Container>
-      <Link href="mailto:palakgupta2712@gmail.com">
-        <AiOutlineMail />
-      </Link>
-      <Link href="https://github.com/palakgupta2712" target="_blank">
-        <AiOutlineGithub />
-      </Link>
-      <Link href="https://www.linkedin.com/in/palakgupta2712/" target="_blank">
-        <AiFillLinkedin />
-      </Link>
-      <Link href="https://www.codepen.io/palakgupta27" target="_blank">
-        <AiFillCodepenCircle />
-      </Link>
+      <SocialLinks>
+        <Link href="mailto:palakgupta2712@gmail.com">
+          <AiOutlineMail />
+        </Link>
+        <Link href="https://github.com/palakgupta2712" target="_blank">
+          <AiOutlineGithub />
+        </Link>
+        <Link
+          href="https://www.linkedin.com/in/palakgupta2712/"
+          target="_blank"
+        >
+          <AiFillLinkedin />
+        </Link>
+        <Link href="https://www.codepen.io/palakgupta27" target="_blank">
+          <AiFillCodepenCircle />
+        </Link>
+      </SocialLinks>
+      <Credits>Designed & Built by Palak Gupta</Credits>
     </Container>
   );
 }
 
 export default Footer;
-const Container = styled.div`
-  font-size: 28px;
+const SocialLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
   padding: 10px;
+  font-size: 30px;
 `;
 
 const Link = styled.a`
@@ -42,4 +48,13 @@ const Link = styled.a`
   &:hover {
     transform: scale(1.5);
   }
+`;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+const Credits = styled.div`
+  font-size: 12px;
 `;

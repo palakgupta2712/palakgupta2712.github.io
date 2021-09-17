@@ -8,6 +8,7 @@ function Heading() {
       <Title>Hi! I am {data.name}.</Title>
       <img
         src={data.profile_picture_url}
+        alt="profile_photo-palak_gupta"
         height="100px"
         width="100px"
         style={{ borderRadius: "50%" }}

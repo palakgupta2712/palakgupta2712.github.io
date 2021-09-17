@@ -2,7 +2,8 @@ import React from "react";
 import SubTitle from "../components/SubTitle";
 import Title from "../components/Title";
 import data from "../data";
-import { HiOutlineLightBulb } from "react-icons/hi";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { FiSettings } from "react-icons/fi";
 import styled from "styled-components";
 
 function Skills() {
@@ -12,7 +13,7 @@ function Skills() {
       <div>
         <div>
           <TitleContainer>
-            <HiOutlineLightBulb style={{ marginRight: "10px" }} />
+            <HiOutlineDesktopComputer style={{ marginRight: "10px" }} />
             <SubTitle name="Development" />
           </TitleContainer>
 
@@ -24,7 +25,7 @@ function Skills() {
         </div>
         <div>
           <TitleContainer>
-            <HiOutlineLightBulb style={{ marginRight: "10px" }} />
+            <FiSettings style={{ marginRight: "10px" }} />
             <SubTitle
               name="Other technologies"
               style={{ marginRight: "10px" }}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Heading from "./components/Heading";
 import Introduction from "./components/Introduction";
 import Skills from "./pages/Skills";

@@ -36,6 +36,7 @@ export default App;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 14px;
   background: linear-gradient(90deg, #d53369 0%, #daae51 50%);
   background-clip: text;
   -webkit-background-clip: text;

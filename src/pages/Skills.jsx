@@ -27,7 +27,7 @@ function Skills() {
           <TitleContainer>
             <FiSettings style={{ marginRight: "10px" }} />
             <SubTitle
-              name="Other technologies"
+              name="Other tools & technologies"
               style={{ marginRight: "10px" }}
             />
           </TitleContainer>

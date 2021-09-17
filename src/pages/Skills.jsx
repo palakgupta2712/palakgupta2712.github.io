@@ -47,18 +47,10 @@ const TitleContainer = styled.div`
   align-items: center;
   /* font-size:   25px; */
 `;
-const Container = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 50px;
-`;
 
 const Tag = styled.p`
-  /* font-size: 10px; */
   border: 1px solid #333;
-  /* background-color: #333; */
   padding: 2px 10px;
   margin: 10px 10px;
   border-radius: 5px;
-  /* color: #d53369; */
 `;

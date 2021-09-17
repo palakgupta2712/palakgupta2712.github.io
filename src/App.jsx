@@ -36,12 +36,11 @@ export default App;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: space-between; */
   background: linear-gradient(90deg, #d53369 0%, #daae51 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
   @media (min-width: 480px) {
     flex-direction: row;
     align-items: center;

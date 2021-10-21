@@ -52,7 +52,14 @@ const data = {
         "EduCouch is a management system intended for educational institution for managing their educational content. Serverless Application using AWS Amplify, React.js, GraphQL and Datastore.",
       repo_url: "https://github.com/palakgupta2712/lms-app-amplify",
       live_url: "https://edu-couch.netlify.app/",
-      tags: ["React.js", "Material-UI", "AWS Amplify"],
+      tags: ["Reactjs", "Material-UI", "AWS Amplify"],
+    },
+    {
+      name: "Code Snippets - A code sharing platform",
+      summary: "A web application for sharing code snippets.",
+      repo_url: "https://github.com/palakgupta2712/code-snippets",
+      live_url: "https://code-snippets-app-57f12.web.app/",
+      tags: ["ReactJS", "Tailwind CSS", "Firebase"],
     },
     {
       name: "Tynts - A color tool",

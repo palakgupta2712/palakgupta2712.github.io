@@ -5,7 +5,7 @@ import data from "../data";
 
 function Experience() {
   return (
-    <div>
+    <Wrapper>
       <Title name="Experience" />
       <p>
         {data.experience.map((item) => (
@@ -22,7 +22,7 @@ function Experience() {
           </Container>
         ))}
       </p>
-    </div>
+    </Wrapper>
   );
 }
 
@@ -59,4 +59,8 @@ const Header = styled.div`
     align-items: center;
     justify-content: space-between;
   }
+`;
+
+const Wrapper = styled.div`
+  margin-bottom: 2rem;
 `;

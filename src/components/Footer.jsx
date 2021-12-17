@@ -14,9 +14,9 @@ function Footer() {
         <Link href="mailto:palakgupta2712@gmail.com">
           <AiOutlineMail />
         </Link>
-<Link href="https://github.com/palakgupta2712" target="_blank">
+        <Link href="https://github.com/palakgupta2712" target="_blank">
           <AiOutlineGithub />
-        </Link        >
+        </Link>
         <Link
           href="https://www.linkedin.com/in/palakgupta2712/"
           target="_blank"
@@ -45,8 +45,9 @@ const SocialLinks = styled.div`
 const Link = styled.a`
   color: inherit;
   text-decoration: none;
+  transition: var(--transition);
   &:hover {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
 `;
 const Container = styled.div`

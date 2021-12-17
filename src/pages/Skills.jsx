@@ -17,7 +17,9 @@ function Skills() {
             <SubTitle name="Development" />
           </TitleContainer>
 
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
+          <div
+            style={{ display: "flex", flexWrap: "wrap", marginBottom: "1rem" }}
+          >
             {data.skills.development.map((item) => (
               <Tag> {item} </Tag>
             ))}

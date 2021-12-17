@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --transition: all 0.2s linear;
+}
+
 body {
   margin: 0 auto;
   max-width: 780px;
